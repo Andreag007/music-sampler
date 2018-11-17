@@ -1,0 +1,73 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 1rem;
+  align-items: center;
+  padding-right: 2rem;
+  background-color: #c4a871;
+}
+
+article {
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/f/fc/RIOT%21.png);
+}
+
+h1 {
+  color: #000;
+}
+
+p {
+  color: #000;
+}
+
+footer {
+  padding-top: 1rem;
+  color: #000;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 2rem;
+}
+
+#laughter{
+  padding-bottom: 2rem;
+}
+
+.images {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 2rem;
+}
+
+.music {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 1rem;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  padding-right: 1em;
+  font-size: 1rem;
+}
+
+nav ul li {
+  margin: 0;
+  margin-left: 1rem;
+}
+
+@media screen and (max-width: 745px){
+    article {
+      max-width: 500px;
+      padding-top: 1rem;
+    }
+
+    section {
+      max-width: 500px;
+    }
+}
